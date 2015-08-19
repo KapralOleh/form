@@ -1,0 +1,11 @@
+body {
+	background: #5D5858;
+	color: #E6F195;
+}
+.form-control {
+	background: #366154;
+	border-color: #E6F195;
+}
+.btn:hover {
+	color: #E6F195;
+}
