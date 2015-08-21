@@ -5,12 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Contact US</title>
     <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -20,24 +19,26 @@
   </head>
   <body>
     <div class="container">
-    <h1>Contact us</h1>
     <div class="row">
-      <div class="col-md-6">
+      <div id="form1" class="col-md-12 well">
+      <h1>Contact us</h1>
         <form role="form">
           <div class="form-group">
-            <label for="name">Name</label>
+            <label for="name">Your name:</label>
             <input type="name" class="form-control" id="name" required>
+          </div>
+           <div class="form-group">
+            <label for="email">Your email:</label>
+            <input type="email" class="form-control" id="email" required>
           </div>
           <div class="form-group">
             <label for="comm">Yor comment:</label>
             <textarea name="" id="comm" class="form-control" cols="40"></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button  type="submit" class="btn btn-primary"><i class="glyphicon glyphicon-send"></i> Submit</button>
         </form>
       </div>
     </div>
-      
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
